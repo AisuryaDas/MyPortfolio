@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url(image/port3.jpeg);
+  height: 70vh;
+  background-size:auto;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+
+}
+ul li a:hover{
+  background-color:rgb(211, 211, 193);
+  color: #000
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+ul li.active a{
+  background-colorb:black;
+  color: #000;
+}
+h1{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+font-family:unset;
+color:#fff;
+}
+
+h2{
+  position: absolute;
+  top:62%;
+  left: 50%;
+  color:#fff;
+  transform: translate(-50%,-50%);
+  font-size: 35px;
+  font-family:sans-serif;
+
+
+}
+h3{
+  position: absolute;
+  top: 76%;
+  left:55%;
+  color:#fff;
+  transform: translate(-50%,-50%);
+  font-family:cursive;
+  fonts 
+
+}
+button{
+  background-color:none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+button a{
+  border: 2px solid;
+  padding: 10px 20px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  transition:0.6 ease;
+
+}
+a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+footer{
+  padding:8px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  background-color:#fff;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 95%;
+  left: 55%;
+  transform: translate(-66%,+400%);
+}
+social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+}
+fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color:rgb(139, 136, 136);
+  text-align: center;
+  margin-bottom: 20px;
+}
